@@ -1,0 +1,21 @@
+{
+  "name": "modulo1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "scripts": {
+    "ex1": "babel ./exercicio1.js -o bundle-exercicio1.js -w",
+    "ex2": "babel ./exercicio2.js -o bundle-exercicio2.js -w",
+    "ex3": "babel ./exercicio3.js -o bundle-exercicio3.js -w",
+    "ex4": "babel ./exercicio4.js -o bundle-exercicio4.js -w",
+    "ex5": "babel ./exercicio5.js -o bundle-exercicio5.js -w",
+    "ex6": "babel ./exercicio6.js -o bundle-exercicio6.js -w",
+    "ex7": "babel ./exercicio7.js -o bundle-exercicio7.js -w"
+  }
+}
