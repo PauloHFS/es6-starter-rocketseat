@@ -1,11 +1,11 @@
 {
-  "name": "curso-es6",
+  "name": "modulo2",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.0",
+    "@babel/core": "^7.11.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
     "babel-loader": "^8.1.0",
@@ -14,11 +14,10 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "scripts": {
-    "dev": "webpack-dev-server --mode=development",
-    "build": "webpack --mode=production"
-  },
   "jshintConfig": {
     "esversion": 6
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development"
   }
 }
